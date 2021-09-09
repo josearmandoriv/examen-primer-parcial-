@@ -1,0 +1,13 @@
+#include <stdio.h>
+// Rivera Trejo José Armando 
+// Examen primer parcial 
+ int main(void){
+ 	int L; 
+ 	int v;
+ 	printf("Volumen de un cubo \n");
+ 	printf("indica la magnitud de uno de los lados de la base: \n");
+ 	scanf("%d", &L);
+ 	v=L*L*L;
+ 	printf("el volumen de su cubo es: %d\n",v);
+ 	return 0; 
+ }
